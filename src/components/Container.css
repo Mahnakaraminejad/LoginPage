@@ -1,0 +1,79 @@
+.coc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    position: fixed;
+    left: 20%;
+    top:24%;
+    /* margin-left: 500px; */
+    margin-left: 600px;
+    padding-left: 3rem;
+    margin: 80px ;
+    background-color: #5f7185;
+    height: 320px;
+    width: 400px;
+    
+}
+div.coc{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.inputs{
+    /* display: block; */
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 14%;
+    color: #cccccc;
+    padding: 10px;
+    /* justify-content: center; */
+    padding-top: 10px;
+    justify-content: center ;
+    /* margin-right: 10px; */
+
+    
+} 
+input[type=Email],input[type=password]{
+    width: 90%;
+    height: 130%;
+    
+}
+div.input-submit{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+div.input-submit>input{
+    background-color: #39b54a;
+    border: none;
+    border-radius: 2rem;
+    color: white;
+    text-align: center;
+    height: 26px;
+    width: 130px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    
+
+}
+div.input-submit>a{
+    color: #cccccc;
+    font-size: 13px;
+    text-decoration: none;
+    margin-top: 4px;
+}
+
+div.container>.coc>.input-submit {
+    /* position: relative; */
+    margin-right: 60px;
+}
+
+div.container{
+    padding-left: 20px;
+}
+

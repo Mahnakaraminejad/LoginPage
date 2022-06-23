@@ -1,0 +1,11 @@
+.image{
+    background-image: url(../Capture.JPG);
+}
+
+div.content>img{
+    margin-left: 20%;
+
+}
+img{
+    display: block;
+}
